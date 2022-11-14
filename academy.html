@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy Project</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500;600;700&family=Lato:wght@100;300;400;700&family=Paytone+One&family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto:wght@100;300;400;500;700&display=swap');
+        body {
+            font-family: "Lato" , sans-serif;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,
+        body,
+        .wrapper {
+            height: 100%;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 200px auto 300px;
+            width: 1020px;
+        }
+        .sidebar {
+            background: gold;
+        }
+        main {
+            background: white;
+            margin-top: 40px;
+            
+           
+        }
+        .userbar {
+            background:#95a5a6;
+           
+        }
+        section {
+           margin: 20px;
+            
+        }
+       li{
+      
+        list-style: none;
+        width: calc(100% /7);
+       }
+       ul {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-row: repeat(6, 1fr);
+        aspect-ratio: 1;
+        position: absolute;
+        bottom: 200px;
+        left: 750px;
+       }
+       h3 {
+        position: absolute;
+        bottom: 450px;
+        left: 750px;
+       }
+       .is-bold {
+        font-weight: 600;
+       }
+  
+  
+   .header {
+    display: flex;
+    justify-content: space-between;
+
+    
+   }
+   
+   
+   h2 {
+        margin: 30px;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 700;
+     }
+     .sidebar i {
+        font-size: 20px;
+     }
+     h5 {
+        padding-top: 15px;
+        font-size: 20px;
+     }
+    
+     .menu {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        font-size: 20px;
+     }
+     .na-me {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+       
+     }
+     .columns {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 40px;
+      gap: 10px;
+      width: 100%;
+     
+     
+    }
+    .note {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 20px;
+      padding: 40px;
+      
+
+      flex: 1;
+      aspect-ratio: 2 / 1;
+    }
+    .img {
+      
+      color: green;
+    }
+    h5 {
+        margin-top: 40px;
+    }
+   
+    
+    
+ </style>
+</head>
+<body>
+    <div class="header">
+     
+         
+        </div>
+    <div class="wrapper">
+        
+
+     <aside class="sidebar">
+        <h2><i class="las la-cube"></i>Academy</h2>
+    <nav class="menu">
+        <na>
+            <me>
+                <a class="na-me" href="#"></a>
+                <i class="las la-home"></i>
+                Dashboard
+            </me>
+        </na>
+
+        <na>
+            <me>
+                <a class="na-me" href="#"></a>
+                <i class="las la-briefcase"></i>
+                Courses
+            </me>
+        </na>
+
+        <na>
+            <me>
+                <a class="na-me" href="#"></a>
+                <i class="las la-comment-alt"></i>
+                Chats
+            </me>
+        </na>
+
+        <na>
+            <me>
+                <a class="na-me" href="#"></a>
+                <i class="las la-chart-bar"></i>
+                Grades
+            </me>
+        </na>
+
+        <na>
+            <me>
+                <a class="na-me" href="#"></a>
+                <i class="las la-calendar"></i>
+                Shedule
+            </me>
+        </na>
+
+        <na>
+            <me>
+                <a class="na-me" href="#"></a>
+                <i class="las la-cog"></i>
+                Settings
+            </me>
+        </na>
+        
+           
+        
+        </nav>
+    </aside>
+        <main>
+            <sec class="header">
+                <h1 class="name">Dashboard</h1>
+                <div class="item">
+                  <div class="search">
+                     <i class="las la-search"></i>
+                    
+                    <input class="search__input" type="text" placeholder="Search">
+                  </div>
+                  <a class="btn-notification" href="#">
+                    <kal>
+                      <i class="lar la-bell"></i>
+                    </kal>
+                  </a>
+                </div>
+              </sec>
+            
+              <h5>New Courses</h5>
+              <div class="columns">
+               
+              
+                <div class="note">
+                  <div class="img"></div>
+                  <h4>Geography</h4>
+                  <p>12 lessons</p>
+                </div>
+
+                <div class="note">
+                    <div class="img"></div>
+                    <h4>Geography</h4>
+                    <p>12 lessons</p>
+                  </div>
+
+                  <div class="note">
+                    <div class="img"></div>
+                    <h4>Geography</h4>
+                    <p>12 lessons</p>
+                  </div>
+                 </div>
+        </main>
+        <div class="userbar">
+            <section>
+                <h3>
+                    May 2022
+                </h3>
+                <ul>
+                    <li class="is-bold">Sun</li>
+                    <li class="is-bold">Mon</li>
+                    <li class="is-bold">Tue</li>
+                    <li class="is-bold">Wed</li>
+                    <li class="is-bold">Thu</li>
+                    <li class="is-bold">Fri</li>
+                    <li class="is-bold">Sat</li>
+        
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                    <li>00</li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+   <div class="setcourse">
+
+   </div>
+
+   
+</body>
+</html>
